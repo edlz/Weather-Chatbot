@@ -25,12 +25,9 @@
 
 2.  When asking for weather data, locations need to be 1 word with no spaces in between. Consider hyphens or removing the space between the words.
 
-        ### Input Handling
-        - The chatbot makes the assumption that the unknown category is a location. It is
+    ### Input Handling
 
-    implemented this way because the weatherstack api allows misspellings in its query so it will be
-    easier to make queries this way. The grammar rule and lexicon entry below is used to parse
-    unknown location names
+    - The chatbot makes the assumption that the unknown category is a location. It is implemented this way because the weatherstack api allows misspellings in its query so it will be easier to make queries this way.
 
 ## Example Inputs
 
